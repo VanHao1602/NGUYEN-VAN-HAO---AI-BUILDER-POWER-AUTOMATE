@@ -73,5 +73,6 @@ Add validation rules (e.g., duplicate invoice detection).
 Integrate with ERP/Finance system for end-to-end automation.
 
 Extend to multi-language invoices.
+![Process Flow](./FlowAIbuilder.png)
 
 ✍️ Developed by: NGUYEN VAN HAO
