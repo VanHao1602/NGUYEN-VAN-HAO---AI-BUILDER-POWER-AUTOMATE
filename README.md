@@ -1,39 +1,35 @@
-📄 Automating Invoice Processing with AI Builder & Power Automate
-🚀 Overview
+# 📄 Automating Invoice Processing with AI Builder & Power Automate
 
-This project demonstrates how to automate the invoice processing workflow using Microsoft AI Builder and Power Automate.
+## 🚀 Overview
+This project demonstrates how to automate the **invoice processing workflow** using **Microsoft AI Builder** and **Power Automate**.
 
-By combining AI-powered data extraction with automated workflows, the solution eliminates repetitive manual work and ensures fast, accurate, and consistent handling of invoices.
+By combining **AI-powered data extraction** with **automated workflows**, the solution eliminates repetitive manual work and ensures fast, accurate, and consistent handling of invoices.
 
-✨ Features
+---
 
-🤖 AI Builder Custom Model
+## ✨ Features
 
-Trained with only 40 sample invoices
+### 🤖 AI Builder Custom Model
+- Trained with only **40 sample invoices**
+- Achieved **88–99% accuracy** in extracting key fields:
+  - Invoice Number  
+  - Invoice Date  
+  - Due Date  
+  - Total Invoice Amount  
+  - …and more
 
-Achieved 88–99% accuracy in extracting key fields:
-
-Invoice Number
-
-Invoice Date
-
-Due Date
-
-Total Invoice Amount
-
-…and more
 ![Process Flow](./invoice.png)
-🔁 End-to-End Automation with Power Automate
 
-Detects when a new invoice is uploaded to SharePoint
+### 🔁 End-to-End Automation with Power Automate
+- Detects when a new invoice is uploaded to **SharePoint**
+- Runs **AI model** to extract invoice data
+- Logs structured results into **Excel Online** for reporting
+- Sends automatic **Outlook notifications** to relevant teams
 
-Runs AI model to extract invoice data
+---
 
-Logs structured results into Excel Online for reporting
+## 🛠️ Architecture
 
-Sends automatic Outlook notifications to relevant teams
-
-🛠️ Architecture
 ```mermaid
 flowchart TD
     A[Upload Invoice to SharePoint] --> B[Trigger Power Automate Flow]
@@ -42,7 +38,6 @@ flowchart TD
     D --> E[Store Data in Excel Online Table]
     E --> F[Send Outlook Notification]
     F --> G[Data Ready for Reporting in Power BI/Excel]
-
 📊 Benefits
 
 ⏱️ Save hours of manual data entry
@@ -77,4 +72,5 @@ Extend to multi-language invoices.
 ![Process Flow](./FlowAIbuilder.png)
 
 ✍️ Developed by: NGUYEN VAN HAO
+
 
