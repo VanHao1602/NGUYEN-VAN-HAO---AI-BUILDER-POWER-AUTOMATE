@@ -22,7 +22,7 @@ Due Date
 Total Invoice Amount
 
 …and more
-
+![Process Flow](./invoice.png)
 🔁 End-to-End Automation with Power Automate
 
 Detects when a new invoice is uploaded to SharePoint
@@ -34,6 +34,7 @@ Logs structured results into Excel Online for reporting
 Sends automatic Outlook notifications to relevant teams
 
 🛠️ Architecture
+```mermaid
 flowchart TD
     A[Upload Invoice to SharePoint] --> B[Trigger Power Automate Flow]
     B --> C[Run AI Builder Model for Data Extraction]
@@ -76,3 +77,4 @@ Extend to multi-language invoices.
 ![Process Flow](./FlowAIbuilder.png)
 
 ✍️ Developed by: NGUYEN VAN HAO
+
