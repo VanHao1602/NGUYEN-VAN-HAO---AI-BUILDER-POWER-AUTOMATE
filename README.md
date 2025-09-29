@@ -38,6 +38,7 @@ flowchart TD
     D --> E[Store Data in Excel Online Table]
     E --> F[Send Outlook Notification]
     F --> G[Data Ready for Reporting in Power BI/Excel]
+
 📊 Benefits
 
 ⏱️ Save hours of manual data entry
@@ -72,5 +73,6 @@ Extend to multi-language invoices.
 ![Process Flow](./FlowAIbuilder.png)
 
 ✍️ Developed by: NGUYEN VAN HAO
+
 
 
